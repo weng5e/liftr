@@ -1,0 +1,3 @@
+helm package prom2icm
+
+helm repo index --url https://weng5e.github.io/liftr/helm .

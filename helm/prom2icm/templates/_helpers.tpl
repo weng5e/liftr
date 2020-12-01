@@ -49,14 +49,3 @@ Selector labels
 app.kubernetes.io/name: {{ include "prom2icm.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
-
-{{/*
-Create the name of the service account to use
-*/}}
-{{- define "prom2icm.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
-{{- default (include "prom2icm.fullname" .) .Values.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.serviceAccount.name }}
-{{- end }}
-{{- end }}

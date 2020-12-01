@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   prom2icm:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-11-30T15:33:49.5386805-08:00"
-    description: A Helm chart for Kubernetes
-    digest: 864ab02c2c5976cc04cba9f218e251d9d48b2715835105a5996e1c9325e96d93
+    appVersion: 1.0.0
+    created: "2020-11-30T23:17:31.0243019-08:00"
+    description: Prometheus IcM connector
+    digest: 4ed918ceb2b62f3dde100dcc98661f13ae49efd50240f70ba3fbd005187edd19
     name: prom2icm
     type: application
     urls:
-    - https://weng5e.github.io/liftr/helm/prom2icm-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-11-30T15:33:49.534904-08:00"
+    - https://weng5e.github.io/liftr/helm/prom2icm-0.2.0.tgz
+    version: 0.2.0
+generated: "2020-11-30T23:17:31.0220111-08:00"
